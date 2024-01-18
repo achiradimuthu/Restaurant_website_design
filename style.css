@@ -1,0 +1,777 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url("fonts/Century\ Gothic.ttf");
+}
+
+@font-face {
+    font-family: "Absolute Empire";
+    src: url("fonts/aAbsoluteEmpire.otf");
+}
+
+@font-face {
+    font-family: "Brush Script";
+    src: url("fonts/BrushScriptStd.otf");
+}
+
+* {
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+.content {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active_page {
+    color: rgb(255, 163, 35);
+}
+
+
+/* header */
+
+#header {
+    position: fixed;
+    margin-top: 0px;
+}
+
+#header .hed1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#header .sec1 .sec1_mdiv1 {
+    padding: 0px;
+    width: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#header .sec1 .sec1_mdiv1 .d1 {
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#header .sec1 .sec1_mdiv1 .d1 .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#header .sec2 {
+    margin-top: 5px;
+}
+
+#header .sec2 .sec2_mdiv1 {
+    padding: 0px;
+    width: auto;
+    float: left;
+}
+
+#header .sec2 .sec2_mdiv1 span {
+    font-family: "Absolute Empire";
+    font-size: 35px;
+    color: white;
+}
+
+#header .sec2 .sec2_mdiv2 {
+    width: auto;
+    padding: 0px;
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#header .sec2 .sec2_mdiv3 {
+    width: auto;
+    padding: 0px;
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#header .sec2 .sec2_mdiv3 img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#header .sec2 .sec2_mdiv2 a {
+    font-size: 17px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#header .sec2 .sec2_mdiv2 button {
+    font-size: 17px;
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+#header .hed3 .user {
+    width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -55px;
+    display: none;
+}
+
+#header .hed3 .user a {
+    text-decoration: none;
+    color: black;
+}
+
+#header .hed3 .menu {
+    width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+#header .hed3 .menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#header .hed3 .menu button {
+    font-size: 17px;
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+/* header */
+
+
+/* footer */
+
+footer {
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+footer .sp1 {
+    font-size: 20px;
+}
+
+footer .sp2 {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .a1 {
+    color: rgb(255, 163, 35);
+}
+
+footer .sec1 .d1 .icon_mdiv {
+    width: auto;
+}
+
+footer .sec1 .d1 .icon_mdiv .d1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+
+footer .sec1 .d1 .icon_mdiv .d1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* footer */
+
+
+/* index */
+
+#index .sec1 {
+    height: 600px;
+    background-image: url("resources/slider/slide2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#index .sec1 .opacity {
+    height: 600px;
+    background-image: url("resources/black_opacity40.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#index .sec1 .title {
+    margin-top: 250px;
+}
+
+#index .sec1 .title span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#index .sec1 .button .button_div {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#index .sec1 .button .button_div .button1 {
+    font-size: 17px;
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+#index .sec1 .button .button_div .button2 {
+    font-size: 17px;
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+#index .sec2 .sec2_d1 .sp1 {
+    font-family: "Brush Script";
+    font-size: 40px;
+    color: rgb(255, 163, 35);
+}
+
+#index .sec2 .sec2_d1 .sp2 {
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#index .sec3 {
+    background-image: url("resources/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#index .sec3 .op {
+    background-image: url("resources/black_opacity40.png");
+    background-repeat: repeat;
+}
+
+#index .sec3 .d1 .sp1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#index .sec4 {
+    background-color: rgb(250, 250, 250);
+}
+
+#index .sec4 .sec4_d1 .sp1 {
+    font-family: "Brush Script";
+    font-size: 40px;
+    color: rgb(255, 163, 35);
+}
+
+#index .sec4 .sec4_d1 .sp2 {
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#index .sec4 .sec4_d2 .crd .img_div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 163, 35);
+}
+
+#index .sec4 .sec4_d2 .crd .img_div img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#index .sec4 .sec4_d2 .crd span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#index .sec5 .sec5_d1 .sp1 {
+    font-family: "Brush Script";
+    font-size: 40px;
+    color: rgb(255, 163, 35);
+}
+
+#index .sec5 .sec5_d1 .sp2 {
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#index .sec5 .sec5_d2 .title span {
+    font-size: 30px;
+}
+
+#index .sec5 .sec5_d2 .crd .crd_1 {
+    border-radius: 5px;
+}
+
+#index .sec5 .sec5_d2 .crd .img_div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index .sec5 .sec5_d2 .crd .img_div img {
+    width: 100%;
+    height: 100%;
+}
+
+#index .sec5 .sec5_d2 .crd p {
+    font-size: 13px;
+}
+
+#index .sec5 .sec5_d2 .crd .out_stock_sp {
+    font-size: 13px;
+}
+
+#index .sec5 .sec5_d2 .crd input {
+    border-radius: 5px;
+}
+
+#index .sec5 .sec5_d2 .crd .btn1 {
+    font-size: 13px;
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+#index .sec5 .sec5_d2 .crd .btn2 {
+    font-size: 13px;
+    background: none;
+    border-color: rgb(255, 163, 35);
+    color: rgb(255, 163, 35);
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+#index .sec6 {
+    background-color: rgb(250, 250, 250);
+}
+
+#index .sec6 .ldiv .sec6_ldiv_d1 .sp1 {
+    font-family: "Brush Script";
+    font-size: 40px;
+    color: rgb(255, 163, 35);
+}
+
+#index .sec6 .ldiv .sec6_ldiv_d1 .sp2 {
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#index .sec6 input {
+    border-radius: 5px;
+}
+
+#index .sec6 button {
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+
+/* index */
+
+
+/* about */
+
+.about_sec1 {
+    background-image: url("resources/slider/slide3.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about_sec1 .opcity {
+    background-image: url("resources/black_opacity40.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about_sec1 .d1 {
+    margin-top: 400px;
+}
+
+.about_sec1 .d1 span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* about */
+
+
+/* signin & signup page */
+
+.signin_signup {
+    background-image: url("resources/signin_page_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+}
+
+.signin_signup .opcity {
+    background-image: url("resources/black_opacity40.png");
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+
+.signin_signup .ldiv h1 {
+    font-family: "Absolute Empire";
+    color: rgb(255, 163, 35);
+}
+
+.signin_signup .ldiv p {
+    color: white;
+}
+
+.signin_signup .rdiv .form_div {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.signin_signup .rdiv .form_div .sp1 {
+    font-size: 25px;
+}
+
+.signin_signup .rdiv .form_div .sp2 {
+    font-size: 15px;
+}
+
+.signin_signup .rdiv .form_div .sp3 {
+    color: rgb(255, 163, 35);
+    cursor: pointer;
+}
+
+.signin_signup .rdiv .form_div input {
+    border-radius: 5px;
+    height: 35px;
+}
+
+.signin_signup .rdiv .form_div .remember_me_input {
+    border-radius: 5px;
+    height: 20px;
+    border: solid;
+}
+
+.signin_signup .rdiv .form_div button {
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+.signin_signup .rdiv .form_div .rm {
+    width: auto;
+    float: left;
+}
+
+.signin_signup .rdiv .form_div .fp {
+    width: auto;
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.signin_signup .tm_div {
+    position: absolute;
+    bottom: 0px;
+}
+
+.signin_signup .tm_div a {
+    text-decoration: none;
+    color: rgb(255, 163, 35);
+}
+
+#signin_box {
+    display: block;
+}
+
+#signup_box {
+    display: none;
+}
+
+
+/* signin & signup page */
+
+
+/* single view page */
+
+.dark_div {
+    height: 100px;
+}
+
+#signle_view .single_view_sec1 .ldiv .d1 {
+    border-radius: 5px;
+}
+
+#signle_view .single_view_sec1 .rdiv .b1 {
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+#signle_view .single_view_sec1 .rdiv .b2 {
+    background: none;
+    color: rgb(255, 163, 35);
+    border-color: rgb(255, 163, 35);
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+#signle_view .single_view_sec2 {
+    background-color: rgb(250, 250, 250);
+}
+
+.checked {
+    color: orange;
+}
+
+#signle_view .single_view_sec3 .d2 span {
+    font-size: 30px;
+}
+
+#signle_view .single_view_sec4 {
+    background-color: rgb(250, 250, 250);
+}
+
+#signle_view .single_view_sec4 .d2 .d2_1 {
+    border-radius: 5px;
+    background-color: white;
+}
+
+#signle_view .single_view_sec4 .d2 input {
+    border-radius: 5px;
+    height: 40px;
+}
+
+#signle_view .single_view_sec4 .d2 button {
+    background: none;
+    color: rgb(255, 163, 35);
+    border-color: rgb(255, 163, 35);
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+
+/* single view page */
+
+.food_card_img_div {
+    cursor: pointer;
+}
+
+
+/* cart page */
+
+#cart_page .sec1 {
+    background-color: rgb(250, 250, 250);
+}
+
+#cart_page .sec2 .table_div {
+    max-height: 400px;
+    overflow: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#cart_page .sec2 .table_div .tbl .img1 {
+    width: 60px;
+    height: 60px;
+}
+
+#cart_page .sec2 .table_div .tbl .img2 {
+    width: 30px;
+    height: 30px;
+}
+
+#cart_page .sec2 .total_div .d1 {
+    width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#cart_page .sec2 .total_div .d1 button {
+    background-color: rgb(255, 163, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+
+/* cart page */
+
+
+/* adimi page */
+
+#orders_div {
+    display: block;
+}
+
+#bookings_div,
+#messages_div,
+#foods_div,
+#stocks_div {
+    display: none;
+}
+
+.admin_navbar .admin_navbar_btn {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.admin_content_div {
+    background-color: rgb(245, 245, 245);
+}
+
+.admin_content_div .orders_table {
+    height: 500px;
+    overflow: scroll;
+}
+
+.admin_orders_finish_btn {
+    background-color: rgb(23, 162, 184);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.admin_food_select_catogery {
+    height: 30px;
+}
+
+.admin_food_addnew_btn {
+    background-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    border: 1 solid;
+}
+
+.admin_food_edit_btn {
+    background-color: rgb(108, 117, 125);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.admin_food_disable_btn {
+    background-color: rgb(255, 193, 7);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.admin_food_delete_btn {
+    background-color: rgb(220, 53, 69);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+/* admin page */
+
+
+/* profile page */
+
+.profile .profile_img_div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.profile .profile_img_div img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile .new_img_uplord {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile .profile_save_changes_btn {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* profile page */
